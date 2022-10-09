@@ -1732,8 +1732,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -216.78485, y: 151}
-  m_SizeDelta: {x: 132.4303, y: 30}
+  m_AnchoredPosition: {x: -189.03781, y: 151}
+  m_SizeDelta: {x: 187.9243, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &532629480
 MonoBehaviour:
@@ -5204,8 +5204,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -216.78485, y: 193}
-  m_SizeDelta: {x: 132.4303, y: 30}
+  m_AnchoredPosition: {x: -189.03781, y: 193}
+  m_SizeDelta: {x: 187.9243, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1653178084
 MonoBehaviour:
@@ -5424,15 +5424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 417e65e8e6e039946b07ab410ce1791a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  action_SubGenres: []
-  adventure_SubGenres: []
-  puzzle_SubGenres: []
-  rpg_SubGenres: []
-  simulation_SubGenres: []
-  rhythm_SubGenres: []
-  strategy_SubGenres: []
-  sports_SubGenres: []
-  casual_SubGenres: []
 --- !u!1 &1719556738
 GameObject:
   m_ObjectHideFlags: 0
@@ -6235,8 +6226,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -216.78485, y: 103}
-  m_SizeDelta: {x: 132.4303, y: 30}
+  m_AnchoredPosition: {x: -189.03781, y: 103}
+  m_SizeDelta: {x: 187.9243, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966899622
 MonoBehaviour:
@@ -6778,8 +6769,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -216.78485, y: 59}
-  m_SizeDelta: {x: 132.4303, y: 30}
+  m_AnchoredPosition: {x: -188.95508, y: 59}
+  m_SizeDelta: {x: 187.9243, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2146228358
 MonoBehaviour:
