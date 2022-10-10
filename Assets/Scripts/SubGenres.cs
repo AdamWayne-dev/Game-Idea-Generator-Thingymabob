@@ -22,6 +22,11 @@ public class SubGenres : MonoBehaviour
         Add_Adventure_Subgenres();
         Add_Puzzle_Subgenres();
         Add_RPG_Subgenres();
+        Add_Rhythm_Subgenres();
+        Add_Strategy_Subgenres();
+        Add_Sim_Subgenres();
+        Add_Sports_Subgenres();
+        Add_Casual_Subgenres();
     }
 
     public void Add_Action_Subgenres()
@@ -163,4 +168,6 @@ public class SubGenres : MonoBehaviour
     {
         return casual_SubGenres;
     }
+
+   
 }

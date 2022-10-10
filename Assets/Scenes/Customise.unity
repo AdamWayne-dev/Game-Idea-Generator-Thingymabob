@@ -1706,7 +1706,7 @@ GameObject:
   - component: {fileID: 532629481}
   - component: {fileID: 532629480}
   m_Layer: 5
-  m_Name: SubGenre1_dropdown
+  m_Name: SubGenre1_Dropdown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1787,7 +1787,19 @@ MonoBehaviour:
     m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1717313980}
+        m_TargetAssemblyTypeName: UI_Functionality, Assembly-CSharp
+        m_MethodName: Change_Loop_Through
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &532629481
 MonoBehaviour:
@@ -5279,7 +5291,19 @@ MonoBehaviour:
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1717313980}
+        m_TargetAssemblyTypeName: UI_Functionality, Assembly-CSharp
+        m_MethodName: Change_Loop_Through
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &1653178085
 MonoBehaviour:
@@ -6301,7 +6325,19 @@ MonoBehaviour:
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1717313980}
+        m_TargetAssemblyTypeName: UI_Functionality, Assembly-CSharp
+        m_MethodName: Change_Loop_Through
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &1966899623
 MonoBehaviour:
@@ -6689,7 +6725,7 @@ GameObject:
   - component: {fileID: 2146228358}
   - component: {fileID: 2146228356}
   m_Layer: 5
-  m_Name: SubGenre2_dropdown
+  m_Name: SubGenre2_Dropdown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6747,7 +6783,19 @@ MonoBehaviour:
     m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1717313980}
+        m_TargetAssemblyTypeName: UI_Functionality, Assembly-CSharp
+        m_MethodName: Change_Loop_Through
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!224 &2146228357
 RectTransform:

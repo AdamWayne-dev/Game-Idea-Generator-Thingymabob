@@ -37,7 +37,8 @@ public class UI_Functionality : MonoBehaviour
     List<string> sports_subGenre_Selection;
     List<string> casual_subGenre_Selection;
 
-    bool added_items = false;
+    
+    bool loop_through = false;
     void Start()
     {
       action_subGenre_Selection = subGenres.Get_Action_Subgenres();
@@ -66,8 +67,6 @@ public class UI_Functionality : MonoBehaviour
             Toggle_One_on();
             subGenre2.SetActive(false);
             Dropdown_1_Functionality();
-            
-
         }
     }
 
@@ -85,112 +84,158 @@ public class UI_Functionality : MonoBehaviour
            
         }
     }
+    private void Dropdown_2_Functionality() // Sets the functionality of drop down 1
+    {
+        if (dropdown_2.options[dropdown_2.value].text == "Random")
+        {
+            subGenre2.SetActive(false); // Hides the subgenre options if Random is selected.
 
+        }
+        else
+        {
+            subGenre1.SetActive(true);
+            Subgenre2_Input_Options();
+
+        }
+    }
     private void Subgenre1_Input_Options() // if custom is selected, it will reveal the custom field, else it will hide it.
     {
-        
-        if (!added_items) {
-            if (dropdown_1.options[dropdown_1.value].text == "Action")
+        string choice_text = dropdown_1.options[dropdown_1.value].text;
+        if (loop_through) {
+            switch (choice_text)
             {
-                subGenre1_dropdown.ClearOptions();
-                subGenre1_dropdown.AddOptions(action_subGenre_Selection);
-                
+                case "Action":
+                    subGenre1_dropdown.ClearOptions();
+                    subGenre1_dropdown.AddOptions(action_subGenre_Selection);
 
+                    break;
 
-            }
-
-            else if (dropdown_1.options[dropdown_1.value].text == "Adventure")
-            {
-                
-
+                case "Adventure":
                     subGenre1_dropdown.ClearOptions();
                     subGenre1_dropdown.AddOptions(adventure_subGenre_Selection);
-                    
-                
-            }
 
-            else if (dropdown_1.options[dropdown_1.value].text == "Rhythm")
-            {
-                
+                    break;
 
+                case "Rhythm":
                     subGenre1_dropdown.ClearOptions();
                     subGenre1_dropdown.AddOptions(rhythm_subGenre_Selection);
-                    
-                
-            }
 
-            else if (dropdown_1.options[dropdown_1.value].text == "Puzzle")
-            {
-               
+                    break;
 
+                case "Puzzle":
                     subGenre1_dropdown.ClearOptions();
                     subGenre1_dropdown.AddOptions(puzzle_subGenre_Selection);
-                    
-                
-            }
 
-            else if (dropdown_1.options[dropdown_1.value].text == "RPG")
-            {
-                
+                    break;
 
+                case "RPG":
                     subGenre1_dropdown.ClearOptions();
                     subGenre1_dropdown.AddOptions(rpg_subGenre_Selection);
-                    
-                
-            }
 
-            else if (dropdown_1.options[dropdown_1.value].text == "Strategy")
-            {
-               
+                    break;
 
+                case "Strategy":
                     subGenre1_dropdown.ClearOptions();
                     subGenre1_dropdown.AddOptions(strategy_subGenre_Selection);
-                    
-                
-            }
 
-            else if (dropdown_1.options[dropdown_1.value].text == "Simulation")
-            {
-               
+                    break;
 
+                case "Simulation":
                     subGenre1_dropdown.ClearOptions();
                     subGenre1_dropdown.AddOptions(sim_subGenre_Selection);
-                    
-                
-            }
 
-            else if (dropdown_1.options[dropdown_1.value].text == "Sports")
-            {
-               
+                    break;
 
+                case "Sports":
                     subGenre1_dropdown.ClearOptions();
                     subGenre1_dropdown.AddOptions(sports_subGenre_Selection);
-                    
-                
-            }
 
-            else if (dropdown_1.options[dropdown_1.value].text == "Casual")
-            {
-                
+                    break;
 
+                case "Casual":
                     subGenre1_dropdown.ClearOptions();
                     subGenre1_dropdown.AddOptions(casual_subGenre_Selection);
+
+                    break;
+
+                case "Random":
                     
-                
+                    break;
             }
-            else if(dropdown_1.options[dropdown_1.value].text == "Random")
-            {
-                
-                return;
-            }
-            added_items = true;
         }
+            
         
-        Debug.Log(added_items);
+    }
+    private void Subgenre2_Input_Options() // if custom is selected, it will reveal the custom field, else it will hide it.
+    {
+        string choice_text = dropdown_2.options[dropdown_2.value].text;
+        if (loop_through)
+        {
+            switch (choice_text)
+            {
+                case "Action":
+                    subGenre2_dropdown.ClearOptions();
+                    subGenre2_dropdown.AddOptions(action_subGenre_Selection);
+
+                    break;
+
+                case "Adventure":
+                    subGenre2_dropdown.ClearOptions();
+                    subGenre2_dropdown.AddOptions(adventure_subGenre_Selection);
+
+                    break;
+
+                case "Rhythm":
+                    subGenre2_dropdown.ClearOptions();
+                    subGenre2_dropdown.AddOptions(rhythm_subGenre_Selection);
+
+                    break;
+
+                case "Puzzle":
+                    subGenre2_dropdown.ClearOptions();
+                    subGenre2_dropdown.AddOptions(puzzle_subGenre_Selection);
+
+                    break;
+
+                case "RPG":
+                    subGenre2_dropdown.ClearOptions();
+                    subGenre2_dropdown.AddOptions(rpg_subGenre_Selection);
+
+                    break;
+
+                case "Strategy":
+                    subGenre2_dropdown.ClearOptions();
+                    subGenre2_dropdown.AddOptions(strategy_subGenre_Selection);
+
+                    break;
+
+                case "Simulation":
+                    subGenre2_dropdown.ClearOptions();
+                    subGenre2_dropdown.AddOptions(sim_subGenre_Selection);
+
+                    break;
+
+                case "Sports":
+                    subGenre2_dropdown.ClearOptions();
+                    subGenre2_dropdown.AddOptions(sports_subGenre_Selection);
+
+                    break;
+
+                case "Casual":
+                    subGenre2_dropdown.ClearOptions();
+                    subGenre2_dropdown.AddOptions(casual_subGenre_Selection);
+
+                    break;
+
+                case "Random":
+                    
+                    break;
+            }
+        }
+
 
     }
 
-    
 
     void Toggle2_Functionatlity()
     {
@@ -219,6 +264,8 @@ public class UI_Functionality : MonoBehaviour
             {
                 subGenre1.SetActive(true);
                 subGenre2.SetActive(true);
+                Subgenre1_Input_Options();
+                Subgenre2_Input_Options();
             }
         }
     }
@@ -246,5 +293,9 @@ public class UI_Functionality : MonoBehaviour
             toggle1.isOn = true;
         }
     }
-    
+
+    public void Change_Loop_Through()
+    {
+        loop_through = !loop_through;
+    }
 }
