@@ -117,6 +117,8 @@ public class UI_Functionality : MonoBehaviour
             subgenre1.SetActive(true);
             themeObject.SetActive(true);
             mechanicObject.SetActive(true);
+            Genre2.SetActive(false);
+            subgenre2.SetActive(false);
 
             Toggle1_Choices();
             Set_Toggle1_Ticket_Text();    
