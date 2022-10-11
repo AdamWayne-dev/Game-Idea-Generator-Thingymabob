@@ -217,10 +217,7 @@ public class UI_Functionality : MonoBehaviour
     {
         genre_Selection = Random.Range(0, genres.Count);
         genre1_Choice = genres[genre_Selection];
-
-        
-        
-
+       
         switch (genre1_Choice)
         {
             case "Action":
@@ -278,9 +275,14 @@ public class UI_Functionality : MonoBehaviour
                 break;
         }
 
+        
         genre_Selection = Random.Range(0, genres.Count);
         genre2_Choice = genres[genre_Selection];
-
+        while(genre2_Choice == genre1_Choice)
+        {
+            genre_Selection = Random.Range(0, genres.Count);
+            genre2_Choice = genres[genre_Selection];
+        }
         switch (genre2_Choice)
         {
             case "Action":
