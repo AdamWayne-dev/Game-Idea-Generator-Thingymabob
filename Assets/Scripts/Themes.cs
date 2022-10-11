@@ -130,4 +130,9 @@ public class Themes : MonoBehaviour
         themes.Add("Words");
         themes.Add("Zombies");
     }
+
+    public List<string> Get_Themes()
+    {
+        return themes;
+    }
 }

@@ -52,6 +52,18 @@ MonoBehaviour:
   subGenres: {fileID: 2211237446549414871}
   themes: {fileID: 2211237446549414825}
   mechanics: {fileID: 2211237446549414870}
+  genre1_Text: {fileID: 0}
+  genre2_Text: {fileID: 0}
+  subGenre1_Text: {fileID: 0}
+  subGenre2_Text: {fileID: 0}
+  theme_Text: {fileID: 0}
+  mechanics_Text: {fileID: 0}
+  Genre1: {fileID: 0}
+  Genre2: {fileID: 0}
+  subgenre1: {fileID: 0}
+  subgenre2: {fileID: 0}
+  themeObject: {fileID: 0}
+  mechanicObject: {fileID: 0}
 --- !u!114 &2211237446549414871
 MonoBehaviour:
   m_ObjectHideFlags: 0

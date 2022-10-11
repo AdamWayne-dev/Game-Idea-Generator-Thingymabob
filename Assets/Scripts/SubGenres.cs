@@ -31,7 +31,6 @@ public class SubGenres : MonoBehaviour
 
     public void Add_Action_Subgenres()
     {
-        action_SubGenres.Add("Random");
         action_SubGenres.Add("Platform");
         action_SubGenres.Add("First-Person Shooter");
         action_SubGenres.Add("Third-Person Shooter");
@@ -51,7 +50,6 @@ public class SubGenres : MonoBehaviour
     }
     public void Add_Adventure_Subgenres()
     {
-        adventure_SubGenres.Add("Random");
         adventure_SubGenres.Add("Text Adventure");
         adventure_SubGenres.Add("Visual Novel");
         adventure_SubGenres.Add("Interactive Movie");
@@ -65,7 +63,6 @@ public class SubGenres : MonoBehaviour
 
     public void Add_Puzzle_Subgenres()
     {
-        puzzle_SubGenres.Add("Random");
         puzzle_SubGenres.Add("Breakout Clone");
         puzzle_SubGenres.Add("Logical");
         puzzle_SubGenres.Add("Trial and error");
@@ -82,7 +79,6 @@ public class SubGenres : MonoBehaviour
 
     public void Add_RPG_Subgenres()
     {
-        rpg_SubGenres.Add("Random");
         rpg_SubGenres.Add("Action RPG");
         rpg_SubGenres.Add("JRPG");
         rpg_SubGenres.Add("RogueLike");
@@ -99,8 +95,7 @@ public class SubGenres : MonoBehaviour
 
     public void Add_Sim_Subgenres()
     {
-        simulation_SubGenres.Add("Random");
-        simulation_SubGenres.Add("Construction and Management");
+        simulation_SubGenres.Add("Construction");
         simulation_SubGenres.Add("Life Simulation");
         simulation_SubGenres.Add("Vehicle Simulation");
     }
@@ -112,7 +107,6 @@ public class SubGenres : MonoBehaviour
 
     public void Add_Rhythm_Subgenres()
     {
-        rhythm_SubGenres.Add("Random");
         rhythm_SubGenres.Add("Music");
         rhythm_SubGenres.Add("Dance");
     }
@@ -124,7 +118,6 @@ public class SubGenres : MonoBehaviour
 
     public void Add_Strategy_Subgenres()
     {
-        strategy_SubGenres.Add("Random");
         strategy_SubGenres.Add("4X");
         strategy_SubGenres.Add("Artillery");
         strategy_SubGenres.Add("Auto Battler");
@@ -143,7 +136,6 @@ public class SubGenres : MonoBehaviour
 
     public void Add_Sports_Subgenres()
     {
-        sports_SubGenres.Add("Random");
         sports_SubGenres.Add("Racing");
         sports_SubGenres.Add("Sports Game");
         sports_SubGenres.Add("Competitive");
@@ -157,11 +149,10 @@ public class SubGenres : MonoBehaviour
 
     public void Add_Casual_Subgenres()
     {
-        sports_SubGenres.Add("Random");
-        sports_SubGenres.Add("Idle game");
-        sports_SubGenres.Add("Bejewelled clone");
-        sports_SubGenres.Add("Pet game");
-        sports_SubGenres.Add("Gacha game");
+        casual_SubGenres.Add("Idle game");
+        casual_SubGenres.Add("Bejewelled clone");
+        casual_SubGenres.Add("Pet game");
+        casual_SubGenres.Add("Gacha game");
     }
 
     public List<string> Get_Casual_Subgenres()

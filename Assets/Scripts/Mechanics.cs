@@ -8,10 +8,10 @@ public class Mechanics : MonoBehaviour
     List<string> mechanics = new List<string>();
     void Start()
     {
-        Add_Themes();
+        Add_Mechanics();
     }
 
-    private void Add_Themes()
+    private void Add_Mechanics()
     {
         mechanics.Add("Pushing");
         mechanics.Add("Pulling");
@@ -54,5 +54,10 @@ public class Mechanics : MonoBehaviour
         mechanics.Add("Copying");
         mechanics.Add("Drawing");
         
+    }
+
+    public List<string> Get_Mechanics()
+    {
+        return mechanics;
     }
 }
