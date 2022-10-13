@@ -278,6 +278,7 @@ public class UI_Functionality : MonoBehaviour
         
         genre_Selection = Random.Range(0, genres.Count);
         genre2_Choice = genres[genre_Selection];
+
         while(genre2_Choice == genre1_Choice)
         {
             genre_Selection = Random.Range(0, genres.Count);
